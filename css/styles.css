@@ -1,0 +1,78 @@
+:root {
+    --c-brand: #34c3eb; 
+    --c-primary: #2E2F42; 
+    --c-additional: #4D5AE5; 
+    --c-info: #434455;
+    --c-background: #F4F4FD; 
+    --c-background-bright: #2E2F42; 
+    --c-hero-light: #FFF; 
+    --c-button-primary: #4D5AE5; 
+    --c-button-secondary: #7434eb; 
+}
+
+body {
+    color: var(--c-primary);
+    background-color: var(--c-background);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Top line */
+.logo {
+    color: var(--c-primary);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logo-accent {
+    color: var(--c-additional);
+}
+.logo-link {
+    font-size: 16px;
+    font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--c-brand);   
+}
+
+}
+.address-link {
+    font-size: 16px;
+    font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+color: var(--c-info);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--c-background-bright);
+}
+.hero-title {
+color: var(--c-hero-light);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+}
+.button-primary {
+    color: var(--c-hero-light);
+background-color: var(--c-button-primary);
+border: none;
+padding: 16px 32px;
+cursor: pointer;
+border-radius: 4px;
+}
+.button-primary:hover {
+    color: var(--c-background);
+    background-color: var(--c-button-secondary);
+}
+
+
+
