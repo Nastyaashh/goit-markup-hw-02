@@ -34,13 +34,12 @@ text-decoration: none;
     font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.32px;
-
+}
 .logo-link:hover,
 .logo-link:focus {
-  color: var(--c-brand);   
+    color: var(--c-brand);
 }
 
-}
 .address-link {
     font-size: 16px;
     font-weight: 400;
@@ -70,7 +69,7 @@ cursor: pointer;
 border-radius: 4px;
 }
 .button-primary:hover {
-    color: var(--c-background);
+    color: var(--c-brand);
     background-color: var(--c-button-secondary);
 }
 
