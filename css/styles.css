@@ -134,7 +134,6 @@ text-align: center;
     background-color: var(--c-hero-light);
 }
 .header-naming {
-    background-color: var(--c-hero-light);
     color: var(--c-background-bright);
     font-size: 20px;
 font-weight: 500;
@@ -147,6 +146,9 @@ letter-spacing: 0.02em;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.section-team {
+    background-color: var(--c-background);
 }
 
 /* Footer */
