@@ -18,22 +18,24 @@ body {
 
 /* Top line */
 .logo {
+    font-family: Raleway, sans-serif;
     color: var(--c-primary);
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px; 
-letter-spacing: 0.54px;
+    line-height: 1,16; 
+letter-spacing: 0,03;
 text-transform: uppercase;
 text-decoration: none;
 }
 .logo-accent {
+    font-family: Raleway, sans-serif;
     color: var(--c-additional);
 }
 .logo-link {
     font-size: 16px;
     font-weight: 500;
-line-height: 24px; 
-letter-spacing: 0.32px;
+line-height: 1,5; 
+letter-spacing: 0,02;
 }
 .logo-link:hover,
 .logo-link:focus {
@@ -43,9 +45,16 @@ letter-spacing: 0.32px;
 .address-link {
     font-size: 16px;
     font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1,5;
+letter-spacing: 0,02;
 color: var(--c-info);
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
 }
 
 /* Hero section */
@@ -57,8 +66,11 @@ color: var(--c-hero-light);
 text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 60px; 
-letter-spacing: 1.12px;
+line-height: 1.07; 
+letter-spacing: 0,02;
+}
+button {
+    font-family: inherit;
 }
 .button-primary {
     color: var(--c-hero-light);
@@ -73,5 +85,70 @@ border-radius: 4px;
     background-color: var(--c-button-secondary);
 }
 
+.visually-hidden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
+/* Section advantages */
+.visually-hidden-link {
+    color:var(--c-background-bright);
+    font-size: 20px;
+    font-weight: 500;
+line-height: 1,2;
+letter-spacing: 0,02;
+}
+.visually-hidden-text {
+    color: var(--c-info);
+    font-size: 16px;
+    font-weight: 400;
+line-height: 1,5;
+letter-spacing: 0,02;
+}
 
+/* Sections*/
+.header {
+    color: var(--c-background-bright);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+line-height: 1,11;
+letter-spacing: 0.02;
+text-transform: capitalize;
+}
+.header-naming {
+    color: var(--c-background-bright);
+    text-align: center;
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02;
+}
+.header-text {
+    color: var(--c-info);
+    text-align: center;
+    font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--c-background-bright);
+}
+.footer-text {
+    color: var(--c-background);
+    font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02;
+}
