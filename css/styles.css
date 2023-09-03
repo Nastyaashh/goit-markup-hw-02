@@ -31,6 +31,9 @@ text-decoration: none;
     font-family: Raleway, sans-serif;
     color: var(--c-additional);
 }
+.logo-accent-second {
+    color: var(--c-background);
+}
 .logo-link {
     font-size: 16px;
     font-weight: 500;
