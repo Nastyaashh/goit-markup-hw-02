@@ -53,6 +53,7 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--c-info);
+font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -76,6 +77,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
+text-align: center;
 }
 button {
     font-family: inherit;
@@ -90,8 +92,8 @@ border: none;
 cursor: pointer;
 }
 .button-primary:hover {
-    color: var(--c-brand);
-    background-color: var(--c-button-secondary);
+    color: var(--c-hero-light);
+    background-color: var(--c-brand);
 }
 
 .visually-hidden {
@@ -129,16 +131,19 @@ letter-spacing: 0.02em;
 /* Sections*/
 .header {
     color: var(--c-background-bright);
+    background-color: var(--c-background);
     font-size: 36px;
     font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 }
 .header-link {
     background-color: var(--c-hero-light);
 }
 .header-naming {
+    background-color: var(--c-hero-light);
     color: var(--c-background-bright);
     font-size: 20px;
 font-weight: 500;
@@ -158,7 +163,7 @@ letter-spacing: 0.02em;
     background-color: var(--c-background-bright);
 }
 .footer-text {
-    color: var(--c-additional);
+    color: var(--c-background);
     font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
