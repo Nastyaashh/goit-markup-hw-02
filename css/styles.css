@@ -46,14 +46,15 @@ letter-spacing: 0.02em;
 .logo-link:focus {
     color: var(--c-brand);
 }
-
+.address {
+    font-style: normal;
+}
 .address-link {
     font-size: 16px;
     font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--c-info);
-font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
